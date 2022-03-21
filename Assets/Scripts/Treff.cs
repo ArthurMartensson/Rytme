@@ -5,13 +5,8 @@ using UnityEngine;
 public class Treff : MonoBehaviour
 {
     public List<Transform> kuler;
-    // Start is called before the first frame update
-    void Start()
-    {
+    public ScoreManager scoremanager;
 
-    }
-
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown("space"))
@@ -25,7 +20,11 @@ public class Treff : MonoBehaviour
                     nærmeste = kule;
                 }
             }
-            nærmeste.Translate(20, 0, 0);
+            if (Vector3.Distance(transform.position, nærmeste.position) < 1)
+            {
+                nærmeste.Translate(20, 0, 0);
+                scoremanager.UpdateScore(1);
+            }
         }
     }
 }
