@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{BA87AF27-C4D6-0788-9635-0A3040957A4B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ScoreManager.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Treff.cs">
     <Files>
       <File FileName="Assets/Scripts/KuleBevegelse.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Treff.cs" Line="32" Column="10" />
-      <File FileName="Assets/Scripts/ScoreManager.cs" Line="7" Column="9" />
+      <File FileName="Assets/Scripts/Treff.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/ScoreManager.cs" Line="9" Column="12" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
