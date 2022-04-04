@@ -1,21 +1,26 @@
 ﻿<Properties StartupConfiguration="{BA87AF27-C4D6-0788-9635-0A3040957A4B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Treff.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/KuleBevegelse.cs">
     <Files>
-      <File FileName="Assets/Scripts/KuleBevegelse.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Treff.cs" Line="9" Column="1" />
-      <File FileName="Assets/Scripts/ScoreManager.cs" Line="9" Column="12" />
+      <File FileName="Assets/Scripts/KuleBevegelse.cs" Line="22" Column="6" />
+      <File FileName="Assets/Scripts/Treff.cs" />
+      <File FileName="Assets/Scripts/ScoreManager.cs" />
+      <File FileName="Assets/Scripts/Avsender.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Rytme" expanded="True" selected="True" />
+          <Node name="Rytme" expanded="True">
+            <Node name="Assets" expanded="True" selected="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a24e79d7-206e-4227-bc12-d0e3b88c74fd" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8bbd26f3-4152-4303-9f98-494a711117e4" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
