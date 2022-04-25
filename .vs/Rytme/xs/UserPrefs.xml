@@ -1,17 +1,19 @@
 ﻿<Properties StartupConfiguration="{BA87AF27-C4D6-0788-9635-0A3040957A4B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/KuleBevegelse.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Avsender.cs">
     <Files>
-      <File FileName="Assets/Scripts/KuleBevegelse.cs" Line="22" Column="6" />
-      <File FileName="Assets/Scripts/Treff.cs" />
-      <File FileName="Assets/Scripts/ScoreManager.cs" />
-      <File FileName="Assets/Scripts/Avsender.cs" />
+      <File FileName="Assets/Scripts/KuleBevegelse.cs" Line="20" Column="38" />
+      <File FileName="Assets/Scripts/Treff.cs" Line="20" Column="43" />
+      <File FileName="Assets/Scripts/ScoreManager.cs" Line="15" Column="6" />
+      <File FileName="Assets/Scripts/Avsender.cs" Line="16" Column="46" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Rytme" expanded="True">
-            <Node name="Assets" expanded="True" selected="True">
-              <Node name="Scripts" expanded="True" />
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="Avsender.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

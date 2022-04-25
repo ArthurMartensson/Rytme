@@ -7,10 +7,16 @@ public class Treff : MonoBehaviour
     public List<Transform> kuler;
     public ScoreManager scoremanager;
 
+    public void Start()
+    {
+        kuler = new List<Transform>();
+    }
+
     void Update()
     {
         if (Input.GetKeyDown("space"))
         {
+            kuler.RemoveAll(s => s == null);
             Transform nærmeste = kuler[0];
             foreach (Transform kule in kuler)
             {
@@ -22,7 +28,7 @@ public class Treff : MonoBehaviour
             }
             if (Vector3.Distance(transform.position, nærmeste.position) < 1)
             {
-                nærmeste.Translate(20, 0, 0);
+                Destroy(nærmeste.gameObject);
                 scoremanager.UpdateScore(1);
             }
         }
