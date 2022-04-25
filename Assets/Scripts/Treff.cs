@@ -6,6 +6,7 @@ public class Treff : MonoBehaviour
 {
     public List<Transform> kuler;
     public ScoreManager scoremanager;
+    public KeyCode avtrekker;
 
     public void Start()
     {
@@ -14,7 +15,7 @@ public class Treff : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown("space"))
+        if (Input.GetKeyDown(avtrekker))
         {
             kuler.RemoveAll(s => s == null);
             Transform nærmeste = kuler[0];

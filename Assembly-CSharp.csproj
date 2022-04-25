@@ -58,8 +58,9 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/Treff.cs" />
     <Compile Include="Assets/Scripts/ScoreManager.cs" />
-    <Compile Include="Assets/Scripts/KuleBevegelse.cs" />
     <Compile Include="Assets/Scripts/Avsender.cs" />
+    <Compile Include="Assets/Scripts/KuleBevegelse.cs" />
+    <Compile Include="Assets/Scripts/AvsenderManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
