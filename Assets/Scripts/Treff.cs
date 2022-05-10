@@ -15,7 +15,7 @@ public class Treff : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(avtrekker))
+        if (Input.GetKeyDown(avtrekker) && kuler.FindAll(s => s != null).Count > 0)
         {
             kuler.RemoveAll(s => s == null);
             Transform nærmeste = kuler[0];
@@ -27,10 +27,19 @@ public class Treff : MonoBehaviour
                     nærmeste = kule;
                 }
             }
-            if (Vector3.Distance(transform.position, nærmeste.position) < 1)
+            if (Vector3.Distance(transform.position, nærmeste.position) < 0.2)
+            {
+                Destroy(nærmeste.gameObject);
+                scoremanager.UpdateScore(3);
+            }
+            else if (Vector3.Distance(transform.position, nærmeste.position) < 1)
             {
                 Destroy(nærmeste.gameObject);
                 scoremanager.UpdateScore(1);
+            }
+            else
+            {
+                scoremanager.UpdateScore(-1);
             }
         }
     }
