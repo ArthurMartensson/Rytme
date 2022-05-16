@@ -1,12 +1,13 @@
 ﻿<Properties StartupConfiguration="{BA87AF27-C4D6-0788-9635-0A3040957A4B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/KuleBevegelse.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GameLoader.cs">
     <Files>
-      <File FileName="Assets/Scripts/Avsender.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Treff.cs" Line="42" Column="32" />
+      <File FileName="Assets/Scripts/GameLoader.cs" Line="10" Column="40" />
+      <File FileName="Assets/Scripts/Avsender.cs" />
+      <File FileName="Assets/Scripts/Treff.cs" />
       <File FileName="Assets/Scripts/KuleBevegelse.cs" Line="11" Column="6" />
-      <File FileName="Assets/Scripts/ScoreManager.cs" Line="6" Column="26" />
-      <File FileName="Assets/Scripts/AvsenderManager.cs" Line="38" Column="42" />
-      <File FileName="Assets/Levels/level1.txt" Line="7" Column="2" />
+      <File FileName="Assets/Scripts/ScoreManager.cs" />
+      <File FileName="Assets/Scripts/AvsenderManager.cs" />
+      <File FileName="Assets/Levels/level1.txt" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -15,7 +16,7 @@
             <Node name="Assets" expanded="True">
               <Node name="Levels" expanded="True" />
               <Node name="Scripts" expanded="True">
-                <Node name="KuleBevegelse.cs" selected="True" />
+                <Node name="GameLoader.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -25,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="28e0f255-cc3d-4d63-87b3-f31377aeb605" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="7fc9d52b-0c8f-440f-ab14-cd16e8b8b454" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
